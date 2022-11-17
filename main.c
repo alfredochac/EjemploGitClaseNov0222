@@ -35,7 +35,7 @@
 /************************************************************************************************
  * * Copyright (C) 2021 by Alfredo Chacon - TecNM /IT Chihuahua
  *
- * Se permite la redistribución, modificación o uso de este software en formato fuente o binario
+ * Se permite la redistribuciï¿½n, modificaciï¿½n o uso de este software en formato fuente o binario
  * siempre que los archivos mantengan estos derechos de autor.
  * Los usuarios pueden modificar esto y usarlo para aprender sobre el campo de software embebido.
  * Alfredo Chacon y el TecNM /IT Chihuahua no son responsables del mal uso de este material.
@@ -49,6 +49,9 @@
      * Output: NINGUNA
      *
  *****************************************************************************/
+
+#define GITPRUEBA ESTOESUNAPRUEBA
+
 int main(void)
 {
     /************************************************

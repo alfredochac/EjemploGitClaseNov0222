@@ -131,34 +131,34 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-empty_MSP_EXP432P401R_nortos_ccs.out \
+NoRtosDrivers2.out \
 
 EXE_OUTPUTS__QUOTED += \
-"empty_MSP_EXP432P401R_nortos_ccs.out" \
+"NoRtosDrivers2.out" \
 
 BIN_OUTPUTS += \
-empty_MSP_EXP432P401R_nortos_ccs.hex \
+NoRtosDrivers2.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"empty_MSP_EXP432P401R_nortos_ccs.hex" \
+"NoRtosDrivers2.hex" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "empty_MSP_EXP432P401R_nortos_ccs.out"
+	@$(MAKE) --no-print-directory -Onone "NoRtosDrivers2.out"
 
 # Tool invocations
-empty_MSP_EXP432P401R_nortos_ccs.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+NoRtosDrivers2.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"empty_MSP_EXP432P401R_nortos_ccs.map" --stack_size=512 -i"/Applications/ti/simplelink_msp432p4_sdk_3_40_01_02/source" -i"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="empty_MSP_EXP432P401R_nortos_ccs_linkInfo.xml" --rom_model -o "empty_MSP_EXP432P401R_nortos_ccs.out" $(ORDERED_OBJS)
+	"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --advice:power=none --define=__MSP432P401R__ --define=DeviceFamily_MSP432P401x -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"NoRtosDrivers2.map" --stack_size=512 -i"/Applications/ti/simplelink_msp432p4_sdk_3_40_01_02/source" -i"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="NoRtosDrivers2_linkInfo.xml" --rom_model -o "NoRtosDrivers2.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
-empty_MSP_EXP432P401R_nortos_ccs.hex: $(EXE_OUTPUTS)
+NoRtosDrivers2.hex: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: Arm Hex Utility'
-	"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armhex" --diag_wrap=off -o "empty_MSP_EXP432P401R_nortos_ccs.hex" $(EXE_OUTPUTS__QUOTED)
+	"/Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armhex" --diag_wrap=off -o "NoRtosDrivers2.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 

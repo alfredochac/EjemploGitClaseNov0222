@@ -36,8 +36,8 @@ DRIVERS/GPIO_MSP432.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_
 DRIVERS/GPIO_MSP432.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdlib.h
 DRIVERS/GPIO_MSP432.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/string.h
 DRIVERS/GPIO_MSP432.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h
-DRIVERS/GPIO_MSP432.obj: /Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/BSP.h
-DRIVERS/GPIO_MSP432.obj: /Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/GPIO_MSP432.h
+DRIVERS/GPIO_MSP432.obj: /Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/BSP.h
+DRIVERS/GPIO_MSP432.obj: /Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/GPIO_MSP432.h
 
 ../DRIVERS/GPIO_MSP432.c:
 
@@ -111,7 +111,7 @@ DRIVERS/GPIO_MSP432.obj: /Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos
 
 /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h:
 
-/Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/BSP.h:
+/Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/BSP.h:
 
-/Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/GPIO_MSP432.h:
+/Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/GPIO_MSP432.h:
 

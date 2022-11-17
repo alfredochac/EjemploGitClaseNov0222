@@ -37,7 +37,7 @@ main.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/incl
 main.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdlib.h
 main.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/string.h
 main.obj: /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h
-main.obj: /Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/BSP.h
+main.obj: /Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/BSP.h
 
 ../main.c:
 
@@ -113,5 +113,5 @@ main.obj: /Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/BS
 
 /Applications/ti/ccs1120/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h:
 
-/Users/Fredy/workspace_v11/empty_MSP_EXP432P401R_nortos_ccs/Drivers/BSP.h:
+/Users/Fredy/workspace_v11/NoRtosDrivers2/Drivers/BSP.h:
 
