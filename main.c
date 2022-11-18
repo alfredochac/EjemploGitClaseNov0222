@@ -50,7 +50,7 @@
      *
  *****************************************************************************/
 
-#define GITPRUEBA ESTOESUNAPRUEBA
+#define GITPRUEBA ESTO_ES_RAMA2
 
 int main(void)
 {
